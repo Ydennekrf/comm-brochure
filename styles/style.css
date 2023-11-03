@@ -1,0 +1,102 @@
+body {
+    background-color: #8CBA80;
+    margin: 0;
+}
+
+.text {
+    font-family: 'Sawarabi Mincho', serif;
+}
+
+.display {
+    font-family: 'Cabin Sketch', sans-serif; 
+}
+
+.row1 {
+    
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr ;
+}
+.row2 {
+    display: grid;
+    grid-template-columns:  2fr 15%;
+    padding: 15px ;
+}
+
+.banner {
+   
+    margin: 0;
+    
+}
+
+.logo img {
+    width:400px;
+    height: 300px;
+}
+
+.header {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.phone {
+    width: 15px;
+}
+.foot-font {
+    position: fixed;
+    bottom: 10px;
+    left: 45%;
+    text-align: center;
+    font-size: 10px;
+}
+h4 {
+    padding-left: 10%;
+    text-align: left;
+    font-weight: 200;
+    font-size: 15px;
+}
+.no-deco {
+    list-style-type: none;
+    
+}
+.no-deco img {
+    color: #FDE8E9;
+}
+
+.col2 {
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.drivers {
+    color: #FDE8E9;
+    background-color: #2D2D34;
+    border-radius: 5px;
+    border: 5px solid #FDE8E9;
+}
+.questions {
+    
+    padding: 5px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.main {
+    width: 60%;
+    background-color: #8789C0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px solid #2D2D34;
+}
+.sidebar {
+    text-align:center ;
+}
+.sidebar h2 {
+    padding-left: 35px;
+}
+.logo {
+    width: 65%;
+    background-color: #8789C0;
+    border-radius: 0px 0px 230px 0px;
+    border-right: 10px solid #2D2D34;
+    border-bottom: 10px solid #2D2D34;
+}
